@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0e0e0e;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #1f1f1f, #121212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #e50914;
+  }
+  
+  .signup-box {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    animation: fadeIn 1s ease;
+  }
+  
+  .signup-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+  }
+  
+  .signup-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-wrapper #toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .signup-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .signup-box button:hover {
+    background-color: #f6121d;
+  }
+  
+  .login-text {
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .login-text a {
+    color: #aaa;
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
